@@ -7,9 +7,12 @@ Aplikasi **Hangman CLI Game** merupakan implementasi permainan tebak kata klasik
 ---
 
 ## Tampilan Permainan (I/O dan Screenshot)
-Input/Output
+
+**Win UI**
 
 ![win UI](ScreenshotWIN.png)
+
+**Game Over UI**
 
 ![Game Over UI](ScreenshotGameOver.png)
 
@@ -55,10 +58,11 @@ Karakter 'a' memiliki nilai ASCII 97, sehingga c - 'a' akan menghasilkan 0.
 'b' → 1, 'c' → 2, ..., 'z' → 25.
 
 Array boolean [false, false, ..., false] akan menandai indeks sebagai true ketika huruf tersebut sudah ditebak.
+```
 
 ---
 
-## Alur Eksekusi Program
+### Alur Eksekusi Program
 
 1. Program dimulai dari kelas `Program`, yang membuat objek `WordBank` untuk memilih kata secara acak.
 2. Kata diproses ke dalam kelas `HangmanGame`.
@@ -93,7 +97,7 @@ dotnet new console -n HangmanCLI
 cd HangmanCLI
 # Salin semua file .cs ke dalam folder ini
 dotnet run
-
+```
 ---
 
 ## Struktur file
