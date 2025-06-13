@@ -41,11 +41,11 @@ Aplikasi **Hangman CLI Game** merupakan implementasi permainan tebak kata klasik
   - `Add(char c)` – Menandai bahwa huruf telah ditebak.
   - `Has(char c)` – Memeriksa apakah huruf sudah pernah ditebak sebelumnya.
 
-  ## 3. Proses Hashing pada `Array`
+### 3. Proses Hashing pada `Array`
 
 Struktur data `Array` dalam proyek ini menggunakan pendekatan **hashing langsung (direct hashing)** untuk menyimpan dan memeriksa huruf-huruf yang telah ditebak pemain.
 
-###  Hashing
+- **Hashing**
 
 Huruf-huruf alfabet dari `'a'` hingga `'z'` dipetakan ke dalam indeks array boolean berukuran 26. Proses hashing dilakukan dengan rumus:
 
