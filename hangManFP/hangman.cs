@@ -4,7 +4,7 @@ namespace HangmanCLI
 {
     class WordBank
     {
-        private string[] words = { "brownies", "serigala", "tebakan", "struktur", "data" };
+        private string[] words = { "brownies", "serigala", "tebakan", "struktur", "data", "gunpla", "kai"};
         private Random rand = new Random();
 
         public string GetRandomWord()
